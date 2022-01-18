@@ -1,6 +1,9 @@
 bot:
-  name: ${BotName}
-  token: ${BotToken}
+  name: ${BOT_NAME}
+  token: ${BOT_TOKEN}
+
+application:
+  link: ${APPLICATION_LINK}
 
 server:
-  port: 8082
+  port: ${APPLICATION_PORT}
